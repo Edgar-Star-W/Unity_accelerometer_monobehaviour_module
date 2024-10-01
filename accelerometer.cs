@@ -85,6 +85,7 @@ public class accelerometer : MonoBehaviour
     void Update()
     {
         bool check;
+        //Vector3 acc is the acceleration
         Vector3 acc = acceleration(transform.position, out check);
 
         Debug.Log(acc);
